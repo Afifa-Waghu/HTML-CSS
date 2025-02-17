@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice</title>
+    <style>
+        .video-title{
+            margin-top:0;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+        
+    </style>
 </head>
 <body>
-    <button>Hello</button>
-    <a href="https://www.youtube.com" target="_blank"> linky </a>
+   <div style="display: grid;
+               grid-template-columns: 1fr 1fr 1fr;">
+        <div>
+            <div>
+             <img src="thumbnails/thumbnail-1.webp" >
+            </div>
+            <div style="display: grid;
+            grid-template-columns: 50px 1fr;" >
+                <div>
+                    <img src="channel-pictures/channel-1.jpeg" style="width: 40px; border-radius: 50px;" >
+                </div>
+                <div>
+                    <p class="video-title">text </p>
+                    <p class="video-author">text</p>
+                    <p>text</p>
+                </div>
+            </div>
+        </div>
+   </div>
 </body>
 </html>
